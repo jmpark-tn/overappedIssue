@@ -17,5 +17,7 @@ namespace OverlappedDragPreview
 	public:
 		MainPage();
 
-	};
+    private:
+        void Image_DragStarting(Windows::UI::Xaml::UIElement^ sender, Windows::UI::Xaml::DragStartingEventArgs^ args);
+    };
 }
