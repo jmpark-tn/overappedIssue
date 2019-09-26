@@ -10,7 +10,7 @@
 
     <StackPanel>
         <TextBlock Margin="10" Text="Please drag the first image and then second image."/>
-        <TextBlock Margin="10" Text="You should see the second image on top of the first image in the dragging preview" />
+        <TextBlock Margin="10" Text="You should see the second image on top of the first image in the drag preview" />
         <StackPanel Orientation="Horizontal">
             <TextBlock Margin="5" Text="1st Image : " VerticalAlignment="Center"/>
             <Image Width="72" Height="72" Source="Assets/updated.png" CanDrag="True" DragStarting="Image_DragStarting"/>
